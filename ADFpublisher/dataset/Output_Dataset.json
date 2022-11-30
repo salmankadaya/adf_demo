@@ -1,0 +1,19 @@
+{
+	"name": "Output_Dataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "myImage.jpg",
+				"folderPath": "newImage",
+				"container": "blob"
+			}
+		}
+	}
+}
