@@ -10,7 +10,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "WhatsApp Image 2022-11-22 at 5.45.48 PM.jpeg",
+				"fileName": "idata.txt",
+				"folderPath": "old_data",
 				"container": "blob"
 			}
 		}

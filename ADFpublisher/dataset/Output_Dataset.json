@@ -10,8 +10,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "myImage.jpg",
-				"folderPath": "newImage",
+				"fileName": "odata.txt",
+				"folderPath": "newdata",
 				"container": "blob"
 			}
 		}
