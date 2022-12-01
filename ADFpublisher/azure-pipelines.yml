@@ -88,7 +88,7 @@ stages:
             inputs:
               command: publish
               publishDirectory: '$(build.artifactstagingdirectory)'
-              vstsFeedPublish: 'Azure-Data-Enterprise-Platform/$(feedname_dev)'
+              vstsFeedPublish: 'ADF-Demo/$(feedname_dev)'
               vstsFeedPackagePublish: '$(feedname_dev)'
               packagePublishDescription: 'ADF in Dev Environment'
               verbosity: 'Debug'
@@ -157,7 +157,7 @@ stages:
             inputs:
               command: publish
               publishDirectory: '$(build.artifactstagingdirectory)'
-              vstsFeedPublish: 'Azure-Data-Enterprise-Platform/$(feedname_prod)'
+              vstsFeedPublish: 'ADF-Demo/$(feedname_prod)'
               vstsFeedPackagePublish: '$(feedname_prod)'
               packagePublishDescription: 'ADF in Prod Environment'
               verbosity: 'Debug'
