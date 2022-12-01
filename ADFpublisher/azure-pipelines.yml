@@ -92,7 +92,6 @@ stages:
               vstsFeedPackagePublish: '$(feedname_dev)'
               packagePublishDescription: 'ADF in Dev Environment'
               verbosity: 'Debug'
-              feedsToUsePublish: 'internal'
 
 #################  
 #BUILD FOR MAIN
