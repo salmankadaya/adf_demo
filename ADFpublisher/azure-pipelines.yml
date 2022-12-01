@@ -83,7 +83,7 @@ stages:
               artifact: 'datafactory'
               publishLocation: 'pipeline'
 
-         - task: UniversalPackages@0
+          - task: UniversalPackages@0
             displayName: "Publishing to AzDO Artifacts in Dev"
             inputs:
               command: publish
