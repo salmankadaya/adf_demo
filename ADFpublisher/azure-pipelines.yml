@@ -8,10 +8,10 @@ trigger:
 
   paths:
     include:
-    - ADFIntegration
+    - ADFpublisher
 
 variables:
-- group: mbusa-adf
+- group: adf-var-group
 - name: isDev
   value: $[eq(variables['Build.SourceBranch'], 'refs/heads/develop')]
 - name: isMain
