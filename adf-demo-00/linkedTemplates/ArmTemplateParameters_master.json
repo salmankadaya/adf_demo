@@ -8,6 +8,12 @@
 		"AzureBlobStorage1_connectionString": {
 			"value": ""
 		},
+		"ls_AzBlob_properties_typeProperties_connectionString_secretName": {
+			"value": "sec-bsdev"
+		},
+		"ls_keyvault_properties_typeProperties_baseUrl": {
+			"value": "https://ng-dev.vault.azure.net/"
+		},
 		"containerUri": {
 			"value": ""
 		},
