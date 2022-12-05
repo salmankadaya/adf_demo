@@ -2,7 +2,7 @@
 	"name": "Input_Dataset",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "AzureBlobStorage1",
+			"referenceName": "ls_AzBlob",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
@@ -11,8 +11,8 @@
 			"location": {
 				"type": "AzureBlobStorageLocation",
 				"fileName": "idata.txt",
-				"folderPath": "old_data",
-				"container": "blob"
+				"folderPath": "idata",
+				"container": "bs-dev-container"
 			}
 		}
 	}

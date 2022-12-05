@@ -2,7 +2,7 @@
 	"name": "Output_Dataset",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "AzureBlobStorage1",
+			"referenceName": "ls_AzBlob",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
@@ -11,8 +11,8 @@
 			"location": {
 				"type": "AzureBlobStorageLocation",
 				"fileName": "odata.txt",
-				"folderPath": "newdata",
-				"container": "blob"
+				"folderPath": "outdata",
+				"container": "bs-dev-container"
 			}
 		}
 	}
